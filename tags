@@ -1,0 +1,148 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DEFAULT_SYS_CONFIG	_build/dev/rel/library/bin/library.bat	/^    set DEFAULT_SYS_CONFIG=!RELEASE_SYS_CONFIG!$/;"	v
+DEFAULT_SYS_CONFIG	_build/prod/rel/library/bin/library.bat	/^    set DEFAULT_SYS_CONFIG=!RELEASE_SYS_CONFIG!$/;"	v
+ERLSRV	_build/dev/rel/library/bin/library.bat	/^  set ERLSRV=!RELEASE_ROOT!\\erts-!ERTS_VSN!\\bin\\erlsrv.exe$/;"	v
+ERLSRV	_build/dev/rel/library/bin/library.bat	/^  set ERLSRV=erlsrv.exe$/;"	v
+ERLSRV	_build/prod/rel/library/bin/library.bat	/^  set ERLSRV=!RELEASE_ROOT!\\erts-!ERTS_VSN!\\bin\\erlsrv.exe$/;"	v
+ERLSRV	_build/prod/rel/library/bin/library.bat	/^  set ERLSRV=erlsrv.exe$/;"	v
+ERTS_BIN	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^set ERTS_BIN=%~dp0\\..\\..\\erts-11.1.3\\bin\\$/;"	v
+ERTS_BIN	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^set ERTS_BIN=%~dp0\\..\\..\\erts-11.1.3\\bin\\$/;"	v
+ERTS_VSN	_build/dev/rel/library/bin/library.bat	/^if not defined RELEASE_VSN (for \/f "tokens=1,2" %%K in ('type "!RELEASE_ROOT!\\releases\\start_erl.data"') do (set ERTS_VSN=%%K) && (set RELEASE_VSN=%%L))$/;"	v
+ERTS_VSN	_build/prod/rel/library/bin/library.bat	/^if not defined RELEASE_VSN (for \/f "tokens=1,2" %%K in ('type "!RELEASE_ROOT!\\releases\\start_erl.data"') do (set ERTS_VSN=%%K) && (set RELEASE_VSN=%%L))$/;"	v
+RELEASE_BOOT_SCRIPT	_build/dev/rel/library/bin/library.bat	/^if not defined RELEASE_BOOT_SCRIPT (set RELEASE_BOOT_SCRIPT=start)$/;"	v
+RELEASE_BOOT_SCRIPT	_build/prod/rel/library/bin/library.bat	/^if not defined RELEASE_BOOT_SCRIPT (set RELEASE_BOOT_SCRIPT=start)$/;"	v
+RELEASE_BOOT_SCRIPT_CLEAN	_build/dev/rel/library/bin/library.bat	/^if not defined RELEASE_BOOT_SCRIPT_CLEAN (set RELEASE_BOOT_SCRIPT_CLEAN=start_clean)$/;"	v
+RELEASE_BOOT_SCRIPT_CLEAN	_build/prod/rel/library/bin/library.bat	/^if not defined RELEASE_BOOT_SCRIPT_CLEAN (set RELEASE_BOOT_SCRIPT_CLEAN=start_clean)$/;"	v
+RELEASE_COMMAND	_build/dev/rel/library/bin/library.bat	/^set RELEASE_COMMAND=%~1$/;"	v
+RELEASE_COMMAND	_build/prod/rel/library/bin/library.bat	/^set RELEASE_COMMAND=%~1$/;"	v
+RELEASE_DISTRIBUTION	_build/dev/rel/library/bin/library.bat	/^if not defined RELEASE_DISTRIBUTION (set RELEASE_DISTRIBUTION=sname)$/;"	v
+RELEASE_DISTRIBUTION	_build/dev/rel/library/releases/0.1.0/env.bat	/^rem set RELEASE_DISTRIBUTION=name$/;"	v
+RELEASE_DISTRIBUTION	_build/prod/rel/library/bin/library.bat	/^if not defined RELEASE_DISTRIBUTION (set RELEASE_DISTRIBUTION=sname)$/;"	v
+RELEASE_DISTRIBUTION	_build/prod/rel/library/releases/0.1.0/env.bat	/^rem set RELEASE_DISTRIBUTION=name$/;"	v
+RELEASE_DISTRIBUTION_FLAG	_build/dev/rel/library/bin/library.bat	/^  set RELEASE_DISTRIBUTION_FLAG=$/;"	v
+RELEASE_DISTRIBUTION_FLAG	_build/dev/rel/library/bin/library.bat	/^  set RELEASE_DISTRIBUTION_FLAG=--!RELEASE_DISTRIBUTION! "!RELEASE_NODE!"$/;"	v
+RELEASE_DISTRIBUTION_FLAG	_build/dev/rel/library/bin/library.bat	/^  set RELEASE_DISTRIBUTION_FLAG=--!RELEASE_DISTRIBUTION! "rem-!RANDOM!-!RELEASE_NODE!"$/;"	v
+RELEASE_DISTRIBUTION_FLAG	_build/dev/rel/library/bin/library.bat	/^  set RELEASE_DISTRIBUTION_FLAG=--!RELEASE_DISTRIBUTION! "rpc-!RANDOM!-!RELEASE_NODE!"$/;"	v
+RELEASE_DISTRIBUTION_FLAG	_build/prod/rel/library/bin/library.bat	/^  set RELEASE_DISTRIBUTION_FLAG=$/;"	v
+RELEASE_DISTRIBUTION_FLAG	_build/prod/rel/library/bin/library.bat	/^  set RELEASE_DISTRIBUTION_FLAG=--!RELEASE_DISTRIBUTION! "!RELEASE_NODE!"$/;"	v
+RELEASE_DISTRIBUTION_FLAG	_build/prod/rel/library/bin/library.bat	/^  set RELEASE_DISTRIBUTION_FLAG=--!RELEASE_DISTRIBUTION! "rem-!RANDOM!-!RELEASE_NODE!"$/;"	v
+RELEASE_DISTRIBUTION_FLAG	_build/prod/rel/library/bin/library.bat	/^  set RELEASE_DISTRIBUTION_FLAG=--!RELEASE_DISTRIBUTION! "rpc-!RANDOM!-!RELEASE_NODE!"$/;"	v
+RELEASE_MODE	_build/dev/rel/library/bin/library.bat	/^if not defined RELEASE_MODE (set RELEASE_MODE=embedded)$/;"	v
+RELEASE_MODE	_build/prod/rel/library/bin/library.bat	/^if not defined RELEASE_MODE (set RELEASE_MODE=embedded)$/;"	v
+RELEASE_NAME	_build/dev/rel/library/bin/library.bat	/^if not defined RELEASE_NAME (set RELEASE_NAME=library)$/;"	v
+RELEASE_NAME	_build/prod/rel/library/bin/library.bat	/^if not defined RELEASE_NAME (set RELEASE_NAME=library)$/;"	v
+RELEASE_NODE	_build/dev/rel/library/bin/library.bat	/^if not defined RELEASE_NODE (set RELEASE_NODE=!RELEASE_NAME!)$/;"	v
+RELEASE_NODE	_build/dev/rel/library/releases/0.1.0/env.bat	/^rem set RELEASE_NODE=library@127.0.0.1$/;"	v
+RELEASE_NODE	_build/prod/rel/library/bin/library.bat	/^if not defined RELEASE_NODE (set RELEASE_NODE=!RELEASE_NAME!)$/;"	v
+RELEASE_NODE	_build/prod/rel/library/releases/0.1.0/env.bat	/^rem set RELEASE_NODE=library@127.0.0.1$/;"	v
+RELEASE_ROOT	_build/dev/rel/library/bin/library.bat	/^set RELEASE_ROOT=%cd%$/;"	v
+RELEASE_ROOT	_build/prod/rel/library/bin/library.bat	/^set RELEASE_ROOT=%cd%$/;"	v
+RELEASE_SYS_CONFIG	_build/dev/rel/library/bin/library.bat	/^    set RELEASE_SYS_CONFIG=!RELEASE_TMP!\\!RELEASE_NAME!-!RELEASE_VSN!-!TIMESTAMP:~0,11!-!RANDOM!.runtime$/;"	v
+RELEASE_SYS_CONFIG	_build/dev/rel/library/bin/library.bat	/^if not defined RELEASE_SYS_CONFIG (set RELEASE_SYS_CONFIG=!REL_VSN_DIR!\\sys)$/;"	v
+RELEASE_SYS_CONFIG	_build/prod/rel/library/bin/library.bat	/^    set RELEASE_SYS_CONFIG=!RELEASE_TMP!\\!RELEASE_NAME!-!RELEASE_VSN!-!TIMESTAMP:~0,11!-!RANDOM!.runtime$/;"	v
+RELEASE_SYS_CONFIG	_build/prod/rel/library/bin/library.bat	/^if not defined RELEASE_SYS_CONFIG (set RELEASE_SYS_CONFIG=!REL_VSN_DIR!\\sys)$/;"	v
+RELEASE_TMP	_build/dev/rel/library/bin/library.bat	/^if not defined RELEASE_TMP (set RELEASE_TMP=!RELEASE_ROOT!\\tmp)$/;"	v
+RELEASE_TMP	_build/prod/rel/library/bin/library.bat	/^if not defined RELEASE_TMP (set RELEASE_TMP=!RELEASE_ROOT!\\tmp)$/;"	v
+RELEASE_VM_ARGS	_build/dev/rel/library/bin/library.bat	/^if not defined RELEASE_VM_ARGS (set RELEASE_VM_ARGS=!REL_VSN_DIR!\\vm.args)$/;"	v
+RELEASE_VM_ARGS	_build/prod/rel/library/bin/library.bat	/^if not defined RELEASE_VM_ARGS (set RELEASE_VM_ARGS=!REL_VSN_DIR!\\vm.args)$/;"	v
+REL_VSN_DIR	_build/dev/rel/library/bin/library.bat	/^set REL_VSN_DIR=!RELEASE_ROOT!\\releases\\!RELEASE_VSN!$/;"	v
+REL_VSN_DIR	_build/prod/rel/library/bin/library.bat	/^set REL_VSN_DIR=!RELEASE_ROOT!\\releases\\!RELEASE_VSN!$/;"	v
+SCRIPT_PATH	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^set SCRIPT_PATH=%~dp0$/;"	v
+SCRIPT_PATH	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^set SCRIPT_PATH=%~dp0$/;"	v
+TIMESTAMP	_build/dev/rel/library/bin/library.bat	/^    for \/f "skip=1" %%X in ('wmic os get localdatetime') do if not defined TIMESTAMP set TIMESTAMP=%%X$/;"	v
+TIMESTAMP	_build/prod/rel/library/bin/library.bat	/^    for \/f "skip=1" %%X in ('wmic os get localdatetime') do if not defined TIMESTAMP set TIMESTAMP=%%X$/;"	v
+__ELIXIR_IEX_FLAGS	_build/dev/rel/library/releases/0.1.0/iex.bat	/^if defined IEX_WITH_WERL (@set __ELIXIR_IEX_FLAGS=--werl) else (set __ELIXIR_IEX_FLAGS=)$/;"	v
+__ELIXIR_IEX_FLAGS	_build/prod/rel/library/releases/0.1.0/iex.bat	/^if defined IEX_WITH_WERL (@set __ELIXIR_IEX_FLAGS=--werl) else (set __ELIXIR_IEX_FLAGS=)$/;"	v
+beforeExtra	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^  set beforeExtra=-elixir ansi_enabled true !beforeExtra!$/;"	v
+beforeExtra	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^  set beforeExtra=-noshell -s elixir start_cli !beforeExtra!$/;"	v
+beforeExtra	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^set beforeExtra=$/;"	v
+beforeExtra	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^  set beforeExtra=-elixir ansi_enabled true !beforeExtra!$/;"	v
+beforeExtra	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^  set beforeExtra=-noshell -s elixir start_cli !beforeExtra!$/;"	v
+beforeExtra	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^set beforeExtra=$/;"	v
+documentation	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^:documentation$/;"	l
+documentation	_build/dev/rel/library/releases/0.1.0/iex.bat	/^:documentation$/;"	l
+documentation	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^:documentation$/;"	l
+documentation	_build/prod/rel/library/releases/0.1.0/iex.bat	/^:documentation$/;"	l
+end	_build/dev/rel/library/bin/library.bat	/^:end$/;"	l
+end	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^:end$/;"	l
+end	_build/dev/rel/library/releases/0.1.0/iex.bat	/^:end$/;"	l
+end	_build/prod/rel/library/bin/library.bat	/^:end$/;"	l
+end	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^:end$/;"	l
+end	_build/prod/rel/library/releases/0.1.0/iex.bat	/^:end$/;"	l
+endLoop	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^set endLoop=0$/;"	v
+endLoop	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^set endLoop=1$/;"	v
+endLoop	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^set endLoop=0$/;"	v
+endLoop	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^set endLoop=1$/;"	v
+erl	_build/dev/rel/library/releases/0.1.0/elixir	/^erl () {$/;"	f
+erl	_build/prod/rel/library/releases/0.1.0/elixir	/^erl () {$/;"	f
+eval	_build/dev/rel/library/bin/library.bat	/^:eval$/;"	l
+eval	_build/prod/rel/library/bin/library.bat	/^:eval$/;"	l
+expand_erl_libs	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^:expand_erl_libs$/;"	l
+expand_erl_libs	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^:expand_erl_libs$/;"	l
+export_release_sys_config	_build/dev/rel/library/bin/library	/^export_release_sys_config () {$/;"	f
+export_release_sys_config	_build/prod/rel/library/bin/library	/^export_release_sys_config () {$/;"	f
+ext_libs	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^  set ext_libs=!ext_libs! -pa "%%~fd\\ebin"$/;"	v
+ext_libs	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^set ext_libs=$/;"	v
+ext_libs	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^  set ext_libs=!ext_libs! -pa "%%~fd\\ebin"$/;"	v
+ext_libs	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^set ext_libs=$/;"	v
+install	_build/dev/rel/library/bin/library.bat	/^:install$/;"	l
+install	_build/prod/rel/library/bin/library.bat	/^:install$/;"	l
+par	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^set par="!par:"=\\"!"$/;"	v
+par	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^set par="!par:"=\\"!"$/;"	v
+parsElixir	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^  set parsElixir=!parsElixir! !par!$/;"	v
+parsElixir	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^  set parsElixir=!parsElixir! --eval "!VAR:"=\\"!"$/;"	v
+parsElixir	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^  set parsElixir=!parsElixir! --rpc-eval %1 "!VAR:"=\\"!"$/;"	v
+parsElixir	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^  set parsElixir=!parsElixir! -e "!VAR:"=\\"!"$/;"	v
+parsElixir	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^if !par!=="+elixirc" (set parsElixir=!parsElixir! +elixirc && set runMode="elixirc" && goto startloop)$/;"	v
+parsElixir	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^if !par!=="+iex"     (set parsElixir=!parsElixir! +iex && set runMode="iex" && goto startloop)$/;"	v
+parsElixir	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^set parsElixir=!parsElixir! !par!$/;"	v
+parsElixir	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^set parsElixir=$/;"	v
+parsElixir	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^  set parsElixir=!parsElixir! !par!$/;"	v
+parsElixir	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^  set parsElixir=!parsElixir! --eval "!VAR:"=\\"!"$/;"	v
+parsElixir	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^  set parsElixir=!parsElixir! --rpc-eval %1 "!VAR:"=\\"!"$/;"	v
+parsElixir	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^  set parsElixir=!parsElixir! -e "!VAR:"=\\"!"$/;"	v
+parsElixir	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^if !par!=="+elixirc" (set parsElixir=!parsElixir! +elixirc && set runMode="elixirc" && goto startloop)$/;"	v
+parsElixir	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^if !par!=="+iex"     (set parsElixir=!parsElixir! +iex && set runMode="iex" && goto startloop)$/;"	v
+parsElixir	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^set parsElixir=!parsElixir! !par!$/;"	v
+parsElixir	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^set parsElixir=$/;"	v
+parsErlang	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^set parsErlang=$/;"	v
+parsErlang	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^set parsErlang=$/;"	v
+parseopts	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^:parseopts$/;"	l
+parseopts	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^:parseopts$/;"	l
+rand	_build/dev/rel/library/bin/library	/^rand () {$/;"	f
+rand	_build/prod/rel/library/bin/library	/^rand () {$/;"	f
+readlink_f	_build/dev/rel/library/releases/0.1.0/elixir	/^readlink_f () {$/;"	f
+readlink_f	_build/dev/rel/library/releases/0.1.0/iex	/^readlink_f () {$/;"	f
+readlink_f	_build/prod/rel/library/releases/0.1.0/elixir	/^readlink_f () {$/;"	f
+readlink_f	_build/prod/rel/library/releases/0.1.0/iex	/^readlink_f () {$/;"	f
+release_distribution	_build/dev/rel/library/bin/library	/^release_distribution () {$/;"	f
+release_distribution	_build/prod/rel/library/bin/library	/^release_distribution () {$/;"	f
+remote	_build/dev/rel/library/bin/library.bat	/^:remote$/;"	l
+remote	_build/prod/rel/library/bin/library.bat	/^:remote$/;"	l
+rpc	_build/dev/rel/library/bin/library	/^rpc () {$/;"	f
+rpc	_build/dev/rel/library/bin/library.bat	/^:rpc$/;"	l
+rpc	_build/prod/rel/library/bin/library	/^rpc () {$/;"	f
+rpc	_build/prod/rel/library/bin/library.bat	/^:rpc$/;"	l
+run	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^:run$/;"	l
+run	_build/dev/rel/library/releases/0.1.0/iex.bat	/^:run$/;"	l
+run	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^:run$/;"	l
+run	_build/prod/rel/library/releases/0.1.0/iex.bat	/^:run$/;"	l
+runMode	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^set runMode="elixir"$/;"	v
+runMode	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^set runMode="elixir"$/;"	v
+start	_build/dev/rel/library/bin/library	/^start () {$/;"	f
+start	_build/dev/rel/library/bin/library.bat	/^:start$/;"	l
+start	_build/prod/rel/library/bin/library	/^start () {$/;"	f
+start	_build/prod/rel/library/bin/library.bat	/^:start$/;"	l
+startloop	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^:startloop$/;"	l
+startloop	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^:startloop$/;"	l
+starts_with	_build/dev/rel/library/releases/0.1.0/elixir	/^starts_with () {$/;"	f
+starts_with	_build/prod/rel/library/releases/0.1.0/elixir	/^starts_with () {$/;"	f
+useWerl	_build/dev/rel/library/releases/0.1.0/elixir.bat	/^if !par!=="--werl"   (set useWerl=1 && goto startloop)$/;"	v
+useWerl	_build/prod/rel/library/releases/0.1.0/elixir.bat	/^if !par!=="--werl"   (set useWerl=1 && goto startloop)$/;"	v
+version	_build/dev/rel/library/bin/library.bat	/^:version$/;"	l
+version	_build/prod/rel/library/bin/library.bat	/^:version$/;"	l
